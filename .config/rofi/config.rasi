@@ -1,0 +1,6 @@
+configuration {
+	modi: "drun,keys";
+	terminal: "kitty";
+	show-icons: true;
+} 
+@theme "RofiColors"
