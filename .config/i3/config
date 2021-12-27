@@ -13,7 +13,9 @@ smart_gaps inverse_outer
 smart_borders on
 smart_borders no_gaps
 hide_edge_borders smart_no_gaps
-
+new_window normal 0 px
+new_window none
+default_border none
 
 # Auto Start
 exec_always picom --config /home/jamesm/.config/picom/picom.conf
