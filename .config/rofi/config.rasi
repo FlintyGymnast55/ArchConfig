@@ -1,5 +1,5 @@
 configuration {
-	modi: "drun,keys";
+	modi: "drun,keys,window";
 	terminal: "kitty";
 	show-icons: true;
 } 

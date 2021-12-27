@@ -2,12 +2,10 @@
 
 DIR="$HOME/.config/polybar/"
 
-# Terminate already running bar instances
+# Kill running polybar instances
 killall -q polybar
-# If all your bars have ipc enabled, you can also use
-# polybar-msg cmd quit
 
-# Wait until the processes have been shut down
+# Wait for processes to be shut down
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch bar1 and bar2
